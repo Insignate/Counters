@@ -2,7 +2,6 @@
 function addValue(){
   
   var element = document.getElementById('counter');
-  element.innerText = element.innerText + 1;
-  
+  element.innerText = parseInt(element.innerText) + 1;
 
 }
