@@ -3,3 +3,13 @@ body{
   background-color: #333;
   color : #ddd;
 }
+button{
+  outline: none;
+  border-radious: 50px;
+  border: 2px solid #ddd;
+  background-color: #333
+}
+
+button:hover{
+    background-color: #555;
+}
