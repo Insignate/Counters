@@ -11,7 +11,7 @@ function addValue(){
 
 function addDanyValue(){
   
-  danyFucksAudios = document.getElementsByClassName("danyFucks");
+  var danyFucksAudios = document.getElementsByClassName("danyAudios");
   danyFucksAudios[getRandomInt(danyFucksAudios.length)].play();
   
   var element = document.getElementById('counterDany');
