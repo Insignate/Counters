@@ -2,7 +2,9 @@
 body{
   background-color: #333;
   color : #ddd;
+  margin : 0;
 }
+
 button{
   outline: none;
   border-radius: 50px;
@@ -49,7 +51,14 @@ button:hover {
     border-radius: 8px;
     transition: 0.2s;
     box-shadow: 0 0 5px 5px rgba(255,255,255,0.3);
+    display: block;
+    float: left;
+    padding: 20px;
 }
+.window h1{
+    margin: 4px;
+}
+
 .window:hover{
     border-color: #ddd;
     transition: 0.2s;
