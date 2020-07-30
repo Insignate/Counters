@@ -41,3 +41,17 @@ button:hover {
     -webkit-mask-position: -50%;
   }
 }
+
+
+.window{
+    margin: 16px 8px 16px 8px;
+    border: solid 2px #888;
+    border-radius: 8px;
+    transition: 0.2s;
+    box-shadow: 0 0 5px 5px rgba(255,255,255,0.3);
+}
+.window:hover{
+    border-color: #ddd;
+    transition: 0.2s;
+    box-shadow: 0 0 6px 6px rgba(255,255,255,0.6);
+}
