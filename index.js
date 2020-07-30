@@ -3,7 +3,7 @@ var randomNumber = 0;
 function addValue(){
   
   ashScreamAudios = document.getElementsByClassName("ashAudios");
-  ashScreamAudios[getRandomInt(ashScreamAudios.length)].play();
+  ashScreamAudios[getRandomInt(ashScreamAudios.length) + 1].play();
   
   var element = document.getElementById('counter');
   element.innerText = parseInt(element.innerText) + 1;
