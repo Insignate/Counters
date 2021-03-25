@@ -68,3 +68,7 @@ button:hover {
 .ashAudios, .danyAudios{
   display : none;
 }
+
+.float{
+  float: left;
+}
